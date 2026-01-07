@@ -1,6 +1,6 @@
-Digital Forensics – Windows & Browser Artifact Analysis
+## Digital Forensics – Windows & Browser Artifact Analysis
 
-Overview
+### Overview
 This repository documents a hands-on digital forensics laboratory focused on
 the analysis of Windows system artifacts, web browser data, and malicious
 browser extensions.
@@ -14,7 +14,7 @@ methodology, and analytical reasoning in a controlled academic environment.
 
 ---
 
-Objectives
+### Objectives
 - Identify and analyze Windows forensic artifacts
 - Investigate browser activity and user behavior
 - Detect malicious browser extensions
@@ -24,7 +24,7 @@ Objectives
 
 ---
 
-Lab Environment
+## Lab Environment
 - Analysis System: Windows forensic image
 - Analysis Tools:
   - FTK Imager (read-only mode)
@@ -40,53 +40,53 @@ All analysis was performed using forensic copies to preserve evidence integrity.
 
 ---
 
-Windows & Browser Artifact Analysis
+## Windows & Browser Artifact Analysis
 
-User Profiles
+### User Profiles
 - Identified multiple user profiles within Google Chrome
 - Verified default and additional profiles through directory structure analysis
 
-Browser Configuration
+### Browser Configuration
 - Analyzed Chrome preference files
 - Identified installed themes and extensions through configuration inspection
 
 ---
 
-Malicious Extension Investigation
+## Malicious Extension Investigation
 
-Extension Identification
+### Extension Identification
 - Located suspicious browser extension directories
 - Identified extension ID associated with cryptomining activity
 
-Extension Analysis
+### Extension Analysis
 - Inspected manifest.json and JavaScript files
 - Confirmed cryptominer functionality through code inspection
 - Identified external mining script loading behavior
 
-Cryptomining Details
+### Cryptomining Details
 - Determined hashing rate configuration
 - Identified public key associated with mining activity
 - Traced communication with external mining services
 
 ---
 
-Email & Malware Delivery Analysis
+## Email & Malware Delivery Analysis
 
-Malware Origin
+### Malware Origin
 - Identified suspicious executable disguised as a PDF file
 - Correlated file execution with browser download artifacts
 
-Browser History Analysis
+### Browser History Analysis
 - Traced malicious download URL
 - Identified browsing sequence leading to infection
 
-Email Correlation
+### Email Correlation
 - Analyzed email content suggesting social engineering
 - Identified mismatched link text and destination URL
 
 ---
 
-Key Findings
+### Key Findings
 - Browser extensions can be abused for covert cryptomining
 - User interaction remains a critical infection vector
 - Browser and email artifacts provide strong forensic timelines
@@ -94,7 +94,7 @@ Key Findings
 
 ---
 
-Ethical Considerations
+### Ethical Considerations
 - All analysis was performed in a controlled academic environment
 - No real users or production systems were involved
 - Malware samples were analyzed strictly for educational purposes
